@@ -1,0 +1,14 @@
+.myimage {
+  background-image: url("https://source.unsplash.com/1000x600?computer");
+}
+
+.myimage2 {
+  background-image: url("../img/1.jpg");
+}
+.myimage3 {
+  background-image: url("../img/11.png");
+}
+
+#toggle:checked ~ label div.toogle-circle {
+  @apply translate-x-3;
+}
